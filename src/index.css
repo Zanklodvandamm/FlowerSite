@@ -69,10 +69,9 @@ header .search-and-login-container .shopping-icon {
 }
 
 header .search-and-login-container .login {
-  margin-right: 40px;
-  background-color: green;
+  background-color: #46A358;
   color: white;
-  border-radius: 10px;
+  border-radius: 5px;
   width: 100px;
   height: 30px;
 }
@@ -106,16 +105,16 @@ header .search-and-login-container .login {
   color:green;
 }
 
-.banner .text-banner p {
+.banner .text-banner .banner-two-p {
   margin-bottom: 50px;
 }
 
 .banner .text-banner button{
   width: 140px;
   height: 40px;
-  background: green;
+  background: #46A358;
   color: white;
-  border-radius: 6px;
+  border-radius: 5px;
 }
 
 
@@ -184,7 +183,7 @@ header .search-and-login-container .login {
 .sidebar .price-range-container button{
   width: 90px;
   height: 35px;
-  background-color: green;
+  background-color: #46A358;
   color: white;
   border-radius: 5px;
 }
@@ -239,6 +238,6 @@ header .search-and-login-container .login {
   width: 30px;
   height: 30px;
   color:white;
-  background-color: green;
+  background-color: #46A358;
   border-radius: 5px;
 }
