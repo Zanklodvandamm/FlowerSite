@@ -149,6 +149,8 @@ header .search-and-login-container .login {
   gap: 30px;
   width: 100%;
   height: 1300px;
+  
+  margin-bottom: 80px;
 }
 
 .sidebar {
@@ -240,4 +242,91 @@ header .search-and-login-container .login {
   color:white;
   background-color: #46A358;
   border-radius: 5px;
+}
+
+.second-banner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.second-banner-first-container {
+  width: 650px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #FBFBFB;
+}
+
+.second-banner-first-container .second-banner-first-text {
+  width: 290px;
+  text-align: right;
+  padding-top: 100px;
+}
+
+
+.second-banner-first-container .second-banner-first-text, .second-banner-second-text b{
+  font-size: 18px;
+}
+
+.second-banner-first-container .second-banner-first-text .second-banner-b{
+  font-size: 18px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.second-banner-first-container .second-banner-first-text p{
+  font-size: 14px;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.second-banner-first-container .second-banner-first-text button{
+  background-color: #46A358;
+  color: white;
+  width: 140px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+
+.second-banner-second-container {
+  width: 650px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #FBFBFB;
+}
+
+.second-banner-second-container .second-banner-second-text{
+  width: 290px;
+  text-align: right;
+  padding-top: 100px;
+}
+
+.second-banner-first-container .second-banner-first-text, .second-banner-second-text b{
+  font-size: 18px;
+}
+
+.second-banner-second-container .second-banner-second-text .second-banner-two-b{
+  font-size: 18px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.second-banner-second-container .second-banner-second-text p{
+  font-size: 14px;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.second-banner-second-container .second-banner-second-text button{
+  background-color: #46A358;
+  color: white;
+  width: 140px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.second-banner img{
+  width: 292px;
+  height: 292px;
 }

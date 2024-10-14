@@ -3,6 +3,7 @@ import Header from "./components/Header"
 import './App.css';
 import Main from "./components/Main";
 import Product from "./components/Categories";
+import SecondBanner from "./components/SecondBanner";
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
         <Header/>
         <Main />
         <Product />
+        <SecondBanner />
       </div>
     )
   }
