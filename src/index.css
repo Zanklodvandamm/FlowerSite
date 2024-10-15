@@ -330,3 +330,78 @@ header .search-and-login-container .login {
   width: 292px;
   height: 292px;
 }
+
+/* Общие стили для окна Авторизации и Регистрации */
+.login-container, .registration-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 9999;
+  overflow: auto;
+}
+
+.login-container-background, .registration-container-background {
+  background-color: #FFFFFF;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-container-background .logo, .registration-container-background .logo {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 70px;
+}
+
+.exit {
+  cursor: pointer;
+  float: right;
+}
+
+.login-container-background img, .registration-container-background img {
+  width: 90px;
+  height: 90px;
+}
+
+.login-container .login-main, .registration-container .registration-main {
+  text-align: center;
+}
+
+.login-container .login-main p, .registration-container .registration-main p {
+  font-size: 20px;
+  margin: 20px;
+}
+
+.login-container .login-main input, .login-container .login-main button,
+.registration-container .registration-main input, .registration-container .registration-main button {
+  width: 350px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.login-container .login-main button, .registration-container .registration-main button {
+  background-color: #46A358;
+  color: white;
+  font-size: 16px;
+}
+
+.login-container .login-main .login-text, .registration-container .registration-main .username-text,
+.registration-container .registration-main .email-text, .registration-container .registration-main .password-text {
+  margin-bottom: 20px;
+}
+
+.login-container .login-main .password-text, .registration-container .registration-main .passwordrepeat-text {
+  margin-bottom: 50px;
+}
+
+.login-container > div, .registration-container > div {
+  width: 600px;
+  position: relative;
+  margin: 10% auto;
+  padding: 40px 30px;
+  background: #f5f5f5;
+  border-radius: 5px;
+}
